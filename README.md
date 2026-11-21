@@ -57,7 +57,6 @@ quality score.
 The CSV file uses a semicolon (;) as its delimiter. When loading the
 dataset with Pandas, use:
 import pandas as pd
-
 df = pd.read_csv("winequality.csv", sep=";")
 Check the data types, distributions and feature relationships before
 building a model.
